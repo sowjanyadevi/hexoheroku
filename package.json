@@ -5,6 +5,9 @@
   "hexo": {
     "version": "3.2.2"
   },
+"scripts": {
+    "start": "node server.js"
+  }, 
   "dependencies": {
     "hexo": "^3.2.0",
     "hexo-deployer-heroku": "^0.1.1",
@@ -16,6 +19,8 @@
     "hexo-renderer-ejs": "^0.2.0",
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.0"
+    "hexo-server": "^0.2.0",
+    "ejs": "~1.0.0",
+    "express": "~4.9.8"
   }
 }
